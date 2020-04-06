@@ -130,7 +130,7 @@ storiesOf("InterviewerList", module)
 })
 .add("Initial", () => (
   <InterviewerList
-    value={interviewers}
+    interviewers={interviewers}
     onChange={action("setInterviewer")}
   />
 ))
